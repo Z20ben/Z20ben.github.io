@@ -9,7 +9,7 @@ theme: jekyll-theme-chirpy
 baseurl: ''
 
 #url: 'https://nheidloff.github.io/heidloffblog'
-url: 'https://heidloff.net'
+url: 'https://z20ben.github.io'
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -18,35 +18,36 @@ lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Europe/Berlin
+timezone: Asia/Jakarta
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
-title: Niklas Heidloff
+title: Fredika Benz
 
-tagline: "<div>Welcome to my blog!</div><div style='padding-bottom: 10px;'></div><div>I'm an IT professional focussing on artificial intelligence, development and advocacy.</div><div style='padding-bottom: 10px;'></div><div>Recently I've worked on Generative AI, Kubernetes, Open Source, Java and DevOps at IBM.</div><div style='padding-bottom: 10px;'></div><div>I'm a proud father of five and love building things - software as well as outdoor areas.</div>"
+tagline: "<div>Welcome to my blog!</div><div style='padding-bottom: 10px;'></div><div>I'm an IT professional focussing on Network Engineering and Development Apps & Web.</div><div style='padding-bottom: 10px;'></div><div>Recently I've worked on Mediagrup at Harian Jogja.</div><div style='padding-bottom: 10px;'></div><div>I'm also a fan and love building things - software.</div>"
 
-description: >-   
-  Blog from Niklas Heidloff, an IT professional focussing on artificial intelligence, development and advocacy. Niklas works at IBM and shares his AI, Cloud, OpenSource and DevOps experience.
+description: >-
+  Blog from Fredika Benz, an IT professional.
 
 github:
-  username: nheidloff
+  username: Z20ben
 twitter:
-  username: nheidloff
+  username: Z20Ben
 social:
-  name: Niklas Heidloff
+  name: Fredika Benz
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/niklasheidloff
-    - https://twitter.com/nheidloff      
-    - https://github.com/nheidloff        
+    - https://www.linkedin.com/in/benedictus-fredika-apriawan-santoso-71527b211/
+    - https://twitter.com/Z20Ben
+    - https://github.com/Z20ben
 
 google_site_verification:               # fill in to your verification string
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: UA-21626700-1
+  id:
+  # UA-21626700-1 //id
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -73,7 +74,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/4Y7B9422-4.jpeg'
+avatar: '/assets/img/personal/fredikabenz.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
