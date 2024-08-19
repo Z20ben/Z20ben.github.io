@@ -45,7 +45,7 @@ google_site_verification:               # fill in to your verification string
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
+google_analytics: G-K4Z15FNJ9
   id:
   # UA-21626700-1 //id
   # Google Analytics pageviews report settings
