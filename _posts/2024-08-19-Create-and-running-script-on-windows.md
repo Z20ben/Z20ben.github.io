@@ -1,5 +1,5 @@
 ---
-title: "Create and running script on windows with task scheduler and regedit"
+title: "Create and Running Script on Windows with Task Scheduler and Regedit"
 description: Example how to create and running script on windows platform
 date: 2024-08-19 00:00:00 +0700
 categories: [Script]
@@ -7,14 +7,30 @@ tags: [script, bash, regedit, task scheduler]
 pin: true
 mermaid: true
 image:
-  path: /assets/img/devices-mockup.png
-  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  path: /assets/img/project-build-a-task-scheduler-using-bash.png
+  lqip: data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACwAwCdASoUAAoAPzmEuVOvKKWisAgB4CcJagCdACPtc2cdt/rdwAD8sXh+QJz8TmYpoFIBkx23Edrh4ORyG3MHiKF154KIg3r3/2kkDMimgWpzj3VnonAA
+  alt: Build a task scheduler using bash.
 ---
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-## Set Task Scheduler
+
+Welcome to this tutorial where we will explore the powerful features of Windows in automating tasks and managing system settings through scripts. In this guide, we will walk you through the process of creating a script, setting it up to run automatically using Windows Task Scheduler, and making necessary adjustments through the Windows Registry Editor (RegEdit).
+
+## Prerequisites
+To follow this tutorial, you will need :
+1. Basic understanding of Bash scripting.
+2. Access to a terminal.
+
+## Objectives
+1. Automation of Task Execution
+2. Time-Based Scheduling
+3. Continuous Monitoring
+4. Feedback and Status Reporting
+5. Concurrency and Overlapping Tasks
+
+
+## Task 1 : Set Task Scheduler
 {: .mt-4 .mb-4 }
 
 1. Set Task Scheduler
@@ -48,7 +64,7 @@ image:
   - [x] if the running task does not end when requested, force it to stop
 
 
-##  Set Regedit
+## Task 2 : Set Regedit
 {: .mt-4 .mb-4 }
 
 - Open regedit.exe.
@@ -80,3 +96,6 @@ Here's the exact command you should enter in the registry entry:
 schtasks /run /tn "HjScript\HjScript"
 ```
 
+## Conclusion
+
+This basic task scheduler demonstrates how to use Bash scripting to automate tasks by reading from a configuration file. With further development, it can be extended to handle complex scheduling and task management features. Happy scripting!

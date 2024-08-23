@@ -1,0 +1,61 @@
+/*
+  Style for Homepage
+*/
+
+.post-preview {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--main-border-color);
+
+  a:hover {
+    @extend %link-hover;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  .post-meta {
+    i {
+      font-size: 0.73rem;
+
+      &:not(:first-child) {
+        margin-left: 1.2rem;
+      }
+    }
+
+    em {
+      @extend %normal-font-style;
+    }
+
+    .pin {
+      i {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        padding-left: 3px;
+        color: var(--pin-color);
+      }
+
+      span {
+        display: none;
+      }
+    }
+  }
+
+  .post-content {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    color: var(--post-list-text-color);
+
+    > p {
+      /* Make preview shorter on the homepage */
+      margin: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+  }
+} /* .post-preview */
