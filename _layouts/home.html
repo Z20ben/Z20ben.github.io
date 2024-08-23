@@ -40,11 +40,11 @@ layout: page
 
 <style>
   #core-wrapper {
-    margin-top:-10px;
+    margin-top:0px;
   }
 </style>
 
-<div id="post-list">
+<div id="post-list" class="flex-grow-1 px-xl-1">
 
 {% for post in posts %}
 
@@ -67,7 +67,9 @@ layout: page
       {% endif %}
 
       <div class="col-md-5">
-        <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
+        <div class="preview-img">
+          <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
+        </div>
       </div>
 
       {% assign card_body_col = '7' %}
