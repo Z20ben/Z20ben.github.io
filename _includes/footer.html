@@ -1,4 +1,4 @@
-<!-- The Footer 
+<!-- The Footer
 
 <footer>
   <div class="container pl-lg-4 pr-lg-4">
@@ -35,3 +35,29 @@
   </div>
 </footer>
 -->
+
+<footer
+  aria-label="Site Info"
+  class="
+    d-flex flex-column justify-content-center text-muted
+    flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3 m-0
+  "
+>
+  <p class="mb-0 p-0">
+    {{ '©' }}
+    <time>{{ 'now' | date: '%Y' }}</time>
+    <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+    {% if site.data.locales[include.lang].copyright.brief %}
+      <span
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ site.data.locales[include.lang].copyright.verbose }}"
+      >
+        {{- site.data.locales[include.lang].copyright.brief -}}
+      </span>
+    {% endif %}
+  </p>
+
+  <!-- Custom Link to blog.fredika.web.id -->
+  <p class="mb-0 p-0"><a href="https://blog.fredika.web.id" target="_blank" rel="noopener">https://blog.fredika.web.id</a></p>
+</footer>

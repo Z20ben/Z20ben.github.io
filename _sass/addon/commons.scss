@@ -191,8 +191,17 @@ kbd {
 }
 
 footer {
+  border-top: 1px solid var(--main-border-color);
+  height: 5rem;
   font-size: 0.8rem;
   background-color: var(--main-bg);
+
+
+
+  p {
+    text-align: center;
+    margin-bottom: 0;
+  }
 
   div.d-flex {
     height: $footer-height;
@@ -217,6 +226,8 @@ footer {
       @include no-text-decoration;
     }
   }
+
+
 
   .footer-right {
     text-align: right;
@@ -1352,6 +1363,7 @@ $sidebar-display: "sidebar-display";
 
 @media all and (max-width: 576px) {
   footer {
+    justify-content: center;
     height: $footer-height-mobile;
 
     div.d-flex {
@@ -1433,6 +1445,7 @@ $sidebar-display: "sidebar-display";
   }
 
   footer {
+    padding: 1.5rem 0;
     @include slide;
   }
 
