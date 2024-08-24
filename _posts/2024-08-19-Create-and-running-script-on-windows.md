@@ -88,13 +88,15 @@ Verifying the Setup:
         Add a new string value with the following details:
             Name: RunHjScript
             Value: schtasks /run /tn "HjScript\HjScript"
+{: file='Notes'}
 
 Example Command:
 
-Here's the exact command you should enter in the registry entry:
+Here is the exact command you should enter in the registry entry:
 ```bash
 schtasks /run /tn "HjScript\HjScript"
 ```
+{: file='C:\Path\To\Your\Script.bat'}
 
 ## Conclusion
 
