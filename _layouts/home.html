@@ -127,14 +127,5 @@ layout: page
   {% include post-paginator.html %}
 {% endif %}
 
-<div class="row">
-  <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-12  mt-3">
-    {% for _include in layout.tail_includes %}
-      {% assign _include_path = _include | append: '.html' %}
-      {% include {{ _include_path }} lang=lang %}
-    {% endfor %}
 
-    {% include footer.html lang=lang %}
-  </div>
-</div>
 
