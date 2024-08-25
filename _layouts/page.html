@@ -54,7 +54,9 @@ layout: default
     <!-- niklas -->
     {% if page.layout == 'home' %}
       <div class="access" style="margin-top: -1rem;">
+        {% include update-list.html lang=lang %}
         {% include disclaimer.html %}
+        {% include trending-tags.html lang=lang %}
       </div>
     {% endif %}
 
