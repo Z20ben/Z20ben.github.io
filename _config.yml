@@ -90,7 +90,7 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:             "Z20ben/z20ben.github.io.git"             # <gh-username>/<repo>
+    repo:             "Z20ben/Z20ben.github.io"             # <gh-username>/<repo>
     repo_id:          "R_kgDOMlGJAg"
     category:         "Comments"
     category_id:      "DIC_kwDOMlGJAs4Ch6bL"
@@ -151,7 +151,7 @@ defaults:
   - scope:
       path: _drafts
     values:
-      comments: true
+      comments: false
   - scope:
       path: ''
       type: tabs             # see `site.collections`
