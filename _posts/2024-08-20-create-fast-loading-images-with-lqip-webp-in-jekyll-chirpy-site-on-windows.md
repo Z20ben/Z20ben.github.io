@@ -2,6 +2,7 @@
 title: "Create Fast Loading Images with lqip webp in Jekyll Chripy Site on Windows"
 description: Example how to create and running script on windows platform
 date: 2024-08-20 00:00:00 +0700
+comments: true
 categories: [Web Dev, Jekyll]
 tags: [jekyll, chripy, lqip, webp]
 pin: true

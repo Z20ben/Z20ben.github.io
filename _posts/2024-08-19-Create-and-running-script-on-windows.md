@@ -2,6 +2,7 @@
 title: "Create and Running Script on Windows with Task Scheduler and Regedit"
 description: Example how to create and running script on windows platform
 date: 2024-08-19 00:00:00 +0700
+comments: true
 categories: [Script]
 tags: [script, bash, regedit, task scheduler]
 pin: true
