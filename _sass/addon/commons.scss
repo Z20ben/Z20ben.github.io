@@ -458,6 +458,7 @@ i { /* fontawesome icons */
   font-size: 1.08rem;
   margin-top: 2rem;
   overflow-wrap: break-word;
+  padding-left: 0;
 
   a {
     &.popup {
@@ -486,7 +487,7 @@ i { /* fontawesome icons */
 
       li {
         margin: 0.25rem 0;
-        padding-left: 0.25rem;
+        // padding-left: 0.25rem;
       }
 
       ol,
