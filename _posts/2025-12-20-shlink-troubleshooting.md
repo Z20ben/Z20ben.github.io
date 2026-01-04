@@ -6,7 +6,7 @@ categories: [kubernetes, troubleshooting]
 tags: [shlink, k8s, debugging]
 image:
   path: /assets/img/shlink-troubleshooting.png
-  lqip: data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAwCdASoSAAwAPzmEuVOvKKWisAgB4CcJQBdgA9hVgEhu2SVgAAD+3NvavKsC+ctQ/3WgtwuBPYSqFnMkVye70iBBufgDcXnlX/QgDu/nR0u70CQbgpGC1TbNQAAA
+  lqip: data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQAwCdASoUAAoAPzmGuVOvKKWisAgB4CcJYgCsAB5UmohdX9+AAP7l8MO9vr0GpNmzXrYjEEqfCxE9NinI4vzW/gfrDvaKh9IAEF89Bn5FPOOtpGb8x0TYtdI44QX0ruibgZQBESE3xEEAAAA=
   alt: Shlink Kubernetes Troubleshooting Guide
 description: "Panduan troubleshooting untuk mengatasi masalah umum saat deploy Shlink di Kubernetes"
 toc: true

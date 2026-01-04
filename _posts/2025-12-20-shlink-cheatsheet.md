@@ -6,7 +6,7 @@ categories: [kubernetes, cheatsheet]
 tags: [shlink, k8s, quick-reference]
 image:
   path: /assets/img/shlink-cheatsheet.png
-  lqip: data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACwAwCdASoSAAwAPzmEuVOvKKWisAgB4CcJbACsGuAAUHyeZ3qPkAD+qbN23lRyj2IZKgpsl0Ym5mk7zfD1EMBfGGK7fmCxdLew0Rys9NoZgh2bD/7zezcmPQFAwRL+MALv71bHUN11qpzkIUMSgxc4XN1JcZMgYg3ry3AA
+  lqip: data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASoUAAoAPzmGuVOvKSWisAgB4CcJbACdMoR4PoLkBb4ADQOs1xPQ+M7dXL0P/AD+g20lyLBb45hNSyBgYqPS+rsMeQ2Fxyx9E+prrYJcU/+Tp7/gbeyECqQWZkl1NI/D7jiUfx5aqD2YpoSVNDzMJif8YxzHAQPbJQG38WbPLHKjB+1T5c9nPrOy/O1dwAAA
   alt: Shlink Kubernetes Cheat Sheet
 description: "Quick reference commands untuk manage Shlink di Kubernetes"
 toc: true

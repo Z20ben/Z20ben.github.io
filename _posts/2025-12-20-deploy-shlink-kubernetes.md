@@ -7,7 +7,7 @@ tags: [shlink, k8s, cloudflare, url-shortener, self-hosted]
 author: Fredika
 image:
   path: /assets/img/deploy-shlink-kubernetes.png
-  lqip: data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoSAAwAPzmEuVOvKKWisAgB4CcJbACdMoACjdbGfGeX5QvoAP7Q76OZWmNWP3Yhv1Kz5PwxkMhQ4tkm/GOmx7emYCwSOy9nWvHT8ARpfby/q7Slz2wz0wpRVo1lXfcFBg1MQEYqkAAAAA==
+  lqip: data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoUAAoAPzmEuVOvKKWisAgB4CcJZgCdMoABAryh07rHqjAAAP7AZmHZ857TaJTJk0MInmNDP+zee0j37mUj/oNlDI3alGpBqyGAI0vt5f1fA6p3ecpm7k27O52gsMo9epig78IJPZyAAA==
   alt: Deploy Shlink URL Shortener di Kubernetes dengan Cloudflare Tunnel
 description: "Tutorial lengkap deploy Shlink URL shortener dengan MariaDB di Kubernetes (k3s), secure secrets management, dan public access via Cloudflare Tunnel"
 toc: true
